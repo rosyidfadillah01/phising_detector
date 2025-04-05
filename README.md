@@ -1,19 +1,22 @@
 # Phishing URL & Email Detector 🕵️‍♂️🛡️
 
-Skrip Python ini digunakan untuk mendeteksi apakah sebuah URL atau Email adalah phishing atau bukan, berdasarkan data yang diperoleh dari API. Program juga memungkinkan untuk menyisipkan (insert), memperbarui (update), dan mencari (search) data phishing.
-
-## 📦 Fitur
-- Validasi format URL dan Email
-- Cek apakah URL/Email berpotensi phishing
-- Insert dan update data phishing ke dalam database via API
-- Tampilkan status keamanan suatu URL atau Email
-- Visualisasi status menggunakan `colorama`
+A Python script to detect whether a URL or Email is a phishing attempt using an external API. This tool also allows you to **insert**, **update**, and **search** phishing data.
 
 ---
 
-## 🔧 Instalasi
+## 📦 Features
 
-Sebelum menjalankan script ini, pastikan Python telah terinstall di sistemmu. Kemudian, install dependencies berikut:
+- ✅ Validate URL and Email formats  
+- 🔍 Detect if a URL or Email is potentially phishing  
+- 🗃️ Insert and update phishing data via API  
+- 🛡️ Display security status of URLs and Emails  
+- 🎨 Visualize status with colored output using `colorama`
+
+---
+
+## 🔧 Installation
+
+Make sure Python is installed on your system. Then, install the required dependencies:
 
 ```bash
 pip install requests colorama
